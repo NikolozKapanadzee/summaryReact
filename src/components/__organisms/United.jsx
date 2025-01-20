@@ -1,9 +1,9 @@
 import React from "react";
-import './Organism.css';
+import './United.css';
 import Result from "../__molecules/Result";
 import Summary from "../__molecules/Summary";
 
-function Organism() {
+function United() {
     return (
         <>
         <Result />
@@ -12,4 +12,4 @@ function Organism() {
     )
 }
 
-export default Organism;
+export default United;

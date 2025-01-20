@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import Organism from './components/__organisms/organism'
+import United from './components/__organisms/United';
 
 
 
@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-    <Organism />
+    <United />
     </>
   )
 }
