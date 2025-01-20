@@ -1,0 +1,30 @@
+.btn {
+  width: 100%;
+  max-width: 315px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 128px;
+  background: var(--Dark-Navy, #303b59);
+  border: none;
+  margin-top: 24px;
+  color: var(--White, #fff);
+  text-align: center;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Hanken Grotesk";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+@media (min-width: 1024px) {
+  .btn {
+    margin-top: 60px;
+    border-radius: 128px;
+    background: var(
+      --Gradient-1,
+      linear-gradient(180deg, #75f 0%, #6943ff 0.01%, #2f2ce9 100%)
+    );
+  }
+}
